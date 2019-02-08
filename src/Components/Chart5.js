@@ -15,7 +15,6 @@ class Chart4 extends Component {
       };
     })
       .then(csvData => {
-        // this.visualizeCSV(csvData);
         this.svgCSV(csvData);
       })
       .catch(error => {
